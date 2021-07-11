@@ -22,7 +22,7 @@ class TransportadoraFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'nome' => $this->faker->company(),
         ];
     }
 }
