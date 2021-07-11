@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/transportadora', 'App\Http\Controllers\TransportadoraController@index');
 Route::get('/transportadora/{transportadora}', 'App\Http\Controllers\TransportadoraController@show');
+Route::apiResource('/cotacao', 'App\Http\Controllers\CotacaoFreteController');
